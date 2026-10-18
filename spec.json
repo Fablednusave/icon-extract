@@ -1,0 +1,51 @@
+{
+    "name":  "icon-extract",
+    "logo":  "⭐",
+    "exe":  "IconExtract.exe",
+    "desc":  "Free, open-source icon extractor for Windows — pull every icon size from exe, dll and ico files to PNG. 100 MB portable, MIT.",
+    "topics":  [
+                   "icon-extractor",
+                   "extract-icons",
+                   "exe-icons",
+                   "dll-icons",
+                   "ico-to-png",
+                   "design-tools",
+                   "utilities",
+                   "iconsextract-alternative",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "resource-hacker-alternative",
+                   "png-export",
+                   "batch",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **All embedded sizes** — every icon group inside a binary listed from 16 px up to 256 px PNG-compressed frames",
+                     "✅ **Batch folder scan** — walk a folder of exe and dll files and extract every icon group automatically",
+                     "✅ **PNG and ICO output** — save as PNG for design tools or repack selected sizes into a fresh ICO",
+                     "✅ **Preview grid** — see the actual icons before extracting, grouped by resource ID",
+                     "✅ **Corner-case handling** — handles PE resources, cursor files and multi-language icon groups",
+                     "✅ **No file modification** — read-only extraction; source binaries are never touched",
+                     "✅ **100 MB self-contained exe** — runtime bundled, portable, offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **icon-extract** | IconsExtract | IconViewer | Resource Hacker |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free | Free | Free |",
+                    "| Open source | **Yes** | No | No | No |",
+                    "| Batch folder extraction | **Yes** | Partial | No | No |",
+                    "| PNG export with alpha | **Yes** | Yes | Explorer only | Partial |",
+                    "| Repack selected sizes to ICO | **Yes** | No | No | Yes |",
+                    "| Portable, no install | **Yes, 100 MB** | Zip | Installer | Zip |"
+                ],
+    "faqQ":  "how to extract icons from exe files on Windows?",
+    "faqA":  "Explorer shows one icon per binary and hides the rest, while resource editors make you hunt inside unfamiliar dialogs. icon-extract lists every embedded size, previews them grouped by ID and exports clean alpha PNGs or repacked ICOs. It is a 100 MB portable exe, MIT, offline and strictly read-only.",
+    "s1":  "Dark grid (#121418, yellow #FACC15): binaries list left, icon group grid right with size badges 16 through 256, checkboxes per size.",
+    "s2":  "Extraction options: PNG or ICO output segmented control, filename pattern field, alpha preserved badge, target folder picker.",
+    "s3":  "Batch run: folder scan result of 38 binaries and 412 icons, progress at 81 percent, log line reading no source files modified."
+}
